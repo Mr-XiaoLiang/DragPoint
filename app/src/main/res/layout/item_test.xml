@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textColor="#323232"
+        android:textSize="16sp"
+        android:text="测试数据模拟现实"/>
+    <FrameLayout
+        android:background="#80f0"
+        android:layout_margin="1px"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="1"
+            android:background="@drawable/bg_red_point_20dp"
+            android:gravity="center"
+            android:minWidth="20dp"
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </FrameLayout>
+</LinearLayout>
